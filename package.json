@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "babel": "^6.23.0",
+    "eslint-brunch": "^3.12.0",
+    "eslint-config": "^0.3.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4",
@@ -13,10 +16,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint **/*.{js,jsx} --quiet"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2"
   }
 }
